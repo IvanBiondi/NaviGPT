@@ -17,11 +17,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/welcome_text"
         android:layout_centerInParent="true"
-        android:text="Benvenuto in NaviGPT\n Prova a Chiedermi qualcosa"
+        android:text="NaviGPT"
         android:gravity="center"
         android:textSize="28dp"
         />
-
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,16 +30,14 @@
         android:id="@+id/bottom_layout">
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/message_edit_text"
             android:layout_centerInParent="true"
-            android:hint="Scrivi Qui"
+            android:hint="Write here"
             android:padding="16dp"
             android:layout_toLeftOf="@id/send_btn"
             android:background="@drawable/rounded_corner"
-
-        />
-
+            />
         <ImageButton
             android:layout_width="48dp"
             android:layout_height="48dp"
@@ -51,8 +48,12 @@
             android:padding="8dp"
             android:src="@drawable/baseline_send_24"
             android:background="?attr/selectableItemBackgroundBorderless"
+
             />
 
+
     </RelativeLayout>
+
+
 
 </RelativeLayout>
